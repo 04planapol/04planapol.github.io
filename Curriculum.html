@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Pol Plana — CV</title>
+  <meta name="description" content="CV de Pol Plana, estudiant d'enginyeria informàtica: experiència, habilitats i projectes." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pol Plana — CV" />
+  <meta property="og:description" content="Experiència en atenció al client, coordinació i desenvolupament web." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:locale" content="ca_ES" />
+
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Tipografia: Inter (semblant a la de l’exemple) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Dades estructurades (opcional però pro) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pol Plana",
+    "email": "mailto:u1986945@campus.udg.edu",
+    "telephone": "+34625 656 566",
+    "address": { "@type": "PostalAddress", "addressLocality": "Roses", "addressRegion": "Girona" },
+    "url": "https://pol_plana.com",
+    "sameAs": ["https://www.linkedin.com/in/pol-plana"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Link per saltar directament al contingut (accessibilitat) -->
+  <a class="skip" href="#content">Saltar al contingut</a>
+
+  <!-- Barra de seccions (la mantenim com t’agrada) -->
+  <nav class="quick-nav" aria-label="Anar a secció">
+    <a class="btn-chip" href="#resumen">Resum</a>
+    <a class="btn-chip" href="#experiencia">Experiència</a>
+    <a class="btn-chip" href="#skills">Habilitats</a>
+    <a class="btn-chip" href="#idiomas">Idiomes</a>
+    <a class="btn-chip" href="#proyectos">Projectes</a>
+  </nav>
+
+  <!-- Capçalera fosc tipus banner -->
+  <header class="hero">
+    <div class="hero-inner">
+      <img class="avatar"
+           src="alumne.jpeg"
+           alt="Foto de perfil de Pol Plana"
+           width="92" height="92"
+           loading="eager" decoding="async" />
+      <div class="hero-text">
+        <h1>Pol Plana</h1>
+        <p class="role">Estudiant d’enginyeria informàtica</p>
+        <ul class="contact">
+          <li><a href="mailto:u1986945@campus.udg.edu" rel="noopener">u1986945@campus.udg.edu</a></li>
+          <li><a href="tel:+34625656566" rel="noopener">+34 625 65 65 66</a></li>
+          <li>Roses, Girona</li>
+          <li><a href="https://linkedin.com/in/pol-plana" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://pol_plana.com" target="_blank" rel="noopener">pol_plana.com</a></li>
+        </ul>
+      </div>
+
+      <nav class="actions" aria-label="Accions">
+        <button id="themeToggle" class="btn" type="button" title="Canviar tema">Tema</button>
+        <button id="printBtn" class="btn btn-primary" type="button" title="Imprimir o guardar en PDF">Imprimir</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section aria-labelledby="resumen" id="resumen">
+      <h2>Resum Professional</h2>
+      <p>
+        Estudiant d’Enginyeria Informàtica motivat i orientat a resoldre problemes en equip. Experiència com a socorrista en parc aquàtic, responsable de lloguers en immobiliària i professor particular d’ESO. Habilitats en comunicació, responsabilitat i gestió sota pressió. Actualment ampliant coneixements en programació i desenvolupament web per aportar solucions útils i eficients als reptes digitals.
+      </p>
+    </section>
+
+    <section aria-labelledby="experiencia" id="experiencia">
+      <h2>Experiència Laboral</h2>
+
+      <article class="item">
+        <header class="item-head">
+          <h3>Socorrista · Parc aquàtic</h3>
+          <span class="item-meta">Juny 2022 — Set. 2022</span>
+        </header>
+        <ul class="item-list">
+          <li>Vigilància i prevenció a piscines i atraccions</li>
+          <li>Resposta a incidències amb <strong>temps mitjà &lt; 1 min</strong>; coordinació amb l’equip de primers auxilis.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <header class="item-head">
+          <h3>Responsable de lloguers · Immobiliària</h3>
+          <span class="item-meta">Jul. 2023 — Oct. 2023 · Jul. 2024 — Set. 2024</span>
+        </header>
+        <ul class="item-list">
+          <li>Gestió integral de lloguers (check-in/out, contractes, dipòsits)</li>
+          <li>Resolució d’incidències i coordinació amb manteniment</li>
+          <li>Atenció multilingüe i seguiment en plataformes</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <header class="item-head">
+          <h3>Professor particular de matemàtiques · ESO</h3>
+          <span class="item-meta">Jun. 2025 — Actualitat</span>
+        </header>
+        <ul class="item-list">
+          <li>Classes personalitzades a alumnes amb pla i materials adaptats.</li>
+          <li>Millora mitjana de <strong>+1 punt</strong> en avaluacions trimestrals.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="educacion" id="educacion">
+      <h2>Educació</h2>
+      <article class="item">
+        <header class="item-head">
+          <h3>ESO i Batxillerat</h3>
+          <span class="item-meta">2014 — Actualitat</span>
+        </header>
+      </article>
+      <article class="item">
+        <header class="item-head">
+          <h3>Estudiant d’Enginyeria Informàtica — UDG</h3>
+          <span class="item-meta">2022 — Actualitat</span>
+        </header>
+        <p>Assignatures rellevants: Programació Web, Disseny d’Interfície.</p>
+      </article>
+    </section>
+
+    <section class="grid-2" aria-labelledby="skills">
+      <div>
+        <h2 id="skills">Habilitats</h2>
+        <ul class="tags">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git/GitHub</li><li>Figma</li><li>C/C++</li><li>Haskell</li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="idiomas">Idiomes</h2>
+        <ul class="tags">
+          <li>Català — Natiu</li><li>Castellà — Natiu</li><li>Anglès — C1</li><li>Francès — B1</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="proyectos" id="proyectos">
+      <article class="item">
+  <header class="item-head">
+    <h3>Projectes</h3>
+    <h3>Xarxa de Taxis Elèctrics — Barcelona</h3>
+    <span class="item-meta">2025</span>
+  </header>
+
+  <p>
+    Prototip web per planificar una xarxa de taxis 100% elèctrics a Barcelona,
+    amb simulació de demanda per barris, rutes òptimes i punts de recàrrega
+    ràpida. 
+  </p>
+
+  <ul class="item-list">
+    <li>Model de <strong>demanda per franges horàries</strong> (centre, Eixample, litoral, zones d’oci).</li>
+    <li><strong>Optimització de rutes</strong> i repartiment de flota amb punts de recàrrega prioritaris.</li>
+  </ul>
+
+  <p>
+    <em> Java · Git   
+  </p>
+</article>
+
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> Pol Plana — Última actualització: <time id="lastUpdated"></time></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
