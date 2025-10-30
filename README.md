@@ -58,7 +58,7 @@ El resultat final és un **CV web senzill, ordenat i coherent** amb els coneixem
 ---
 
 ## Enllaç públic al projecte
-https://github.com/04planapol/04planapol.github.io
+[Enllaç a fitxer html,css i javascrpit](https://github.com/04planapol/04planapol.github.io)
 
 ## Enllaç al projecte de Figma
 
